@@ -1,19 +1,26 @@
-var num1= prompt("Enter first number");
-var num2= prompt("Enter second number");
-var num3= prompt("Enter third number");
+var n1= prompt("Enter first number");
+var n2= prompt("Enter second number");
+var n3= prompt("Enter third number");
 
-num1 = parseInt(num1);
-num2 = parseInt(num2);
-num3 = parseInt(num3);
+n1 = parseInt(n1);
+n2 = parseInt(n2);
+n3 = parseInt(n3);
 
-if(num2 <= num1 && num3 <= num1)
-{
-    console.log(num1+"is the largest number");
+if(n1 >= n2){
+    if(n1 >= n3){
+        console.log(n1+"is the largest number");
+    }
+    else{
+        console.log(n3+" is the largest number");
+    }
 }
-else if(num1 <= num2 && num3 <= num2){
-    console.log(num2+"is the largest number");
-}
-else
-{
-    console.log(num3+" is the largest number");
+else{
+    if(n2 >=n1){
+        if(n2>=n3){
+            console.log(n2+" is the largest number");
+        }
+        else{
+            console.log(n3+" is the largest number");
+        }
+    }
 }
