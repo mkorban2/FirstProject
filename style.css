@@ -5,6 +5,7 @@ button{
     margin: 0 auto;
     display: block;
     margin-top: 200px;
+    font-style: none;
 }
 button:hover{
     border-radius: 10px;
