@@ -13,3 +13,6 @@ while(i <= num )
 
 console.log("The sum is "+sum);
 console.log("The product is " +pro);
+
+document.write("the sum is" + sum );
+document.write("the product is "+ pro);
